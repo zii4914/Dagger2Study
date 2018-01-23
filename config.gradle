@@ -1,0 +1,27 @@
+ext.versions = [
+    //app build
+    "CompileSdk"     : 26,
+    "MinSdk"         : 19,
+    "TargetSdk"      : 26,
+
+    //app version
+    "VersionCode"    : 1,
+    "VersionName"    : '1.0.0',
+
+    //supportLib
+    "SupportLib"     : '26.1.0',
+
+    //Libs
+    "ConstrainLayout": '1.0.2',
+    "Dagger2"        : '2.12',
+    "Dagger2Compiler": '2.12',
+    "Gson"           : '2.8.2',
+]
+
+ext.libs = [
+    "SupportV7"      : "com.android.support:appcompat-v7:$versions.SupportLib",
+    "ConstrainLayout": "com.android.support.constraint:constraint-layout:$versions.ConstrainLayout",
+    "Dagger2"        : "com.google.dagger:dagger:$versions.Dagger2",
+    "Dagger2Compiler": "com.google.dagger:dagger-compiler:$versions.Dagger2Compiler",
+    "Gson"           : "com.google.code.gson:gson:$versions.Gson",
+]
